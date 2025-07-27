@@ -1,6 +1,6 @@
 # Healthkart_assignment
 
-The HealthKart Influencer Dashboard is a Streamlit-based application designed for campaign managers to simulate and analyze influencer marketing campaigns across HealthKart competitors. It 
+The HealthKart Influencer Dashboard is a Streamlit-based application designed for campaign managers to simulate and analyze influencer marketing campaigns across HealthKart. It 
 visualizes key performance metrics such as Revenue, ROAS (Return on Ad Spend), influencer impact, and brand-level insights through interactive charts and tables along with timeline set up.
 
 Features
