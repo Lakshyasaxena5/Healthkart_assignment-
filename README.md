@@ -27,38 +27,38 @@ Assumptions and Notes
 
 Data Simulation
 
-Influencer posts, tracking, and payouts are randomly generated using numpy and pandas.
+1. Influencer posts, tracking, and payouts are randomly generated using numpy and pandas.
 
-Included brands: MuscleBlaze, HKVitals, Gritzo, TrueBasics, MBFoods, HealthViva.
+2. Included brands: MuscleBlaze, HKVitals, Gritzo, TrueBasics, MBFoods, HealthViva.
 
-Revenue per order ranges randomly between ₹250 to ₹3500.
+3. Revenue per order ranges randomly between ₹250 to ₹3500.
 
-Payouts are assigned at random either per-post or per-order basis.
+4. Payouts are assigned at random either per-post or per-order basis.
 
 ROAS Calculation
 
-ROAS = Total Revenue ÷ Total Payout
+1. ROAS = Total Revenue ÷ Total Payout
 
 Date Filtering
 
-Data is simulated within the range: January 2023 to January 2024.
+1. Data is simulated within the range: January 2023 to January 2024.
 
-Sidebar controls allow for custom date filtering.
+2. Sidebar controls allow for custom date filtering.
 
 File Upload
 
-Currently supports previewing external CSV influencer data only.
+1. Currently supports previewing external CSV influencer data only.
 
-Uploaded data is not merged with internal simulated data yet.
+2. Uploaded data is not merged with internal simulated data yet.
 
 Troubleshooting / FAQ
 
-Ensure Python 3.7+ is installed.
+1. Ensure Python 3.7+ is installed.
 
-If streamlit command is not found, verify your environment or reinstall Streamlit.
+2. If streamlit command is not found, verify your environment or reinstall Streamlit.
 
-Use a virtual environment (venv, conda) to isolate dependencies.
+3. Use a virtual environment (venv, conda) to isolate dependencies.
 
-If filtering returns no results, check the selected dates and filters carefully.
+4. If filtering returns no results, check the selected dates and filters carefully.
 
 
